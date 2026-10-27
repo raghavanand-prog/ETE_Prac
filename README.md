@@ -1,5 +1,21 @@
 # Campus Idea & Innovation Hub
 
+**A website where students post ideas for campus projects, vote on them and bookmark the ones they want to follow.**
+
+Why it exists: it gives a campus one place to collect and grow ideas. It is a full-stack (MERN) project with sign-in.
+
+## How to run
+
+1. In `backend/`, create a `.env` file with your MongoDB address and a secret (the settings are listed in [Getting Started](#getting-started)), then `npm install && npm start`.
+2. In `frontend/`, run `npm install && npm run dev`.
+3. Open http://localhost:5173.
+
+---
+
+## Technical details
+
+Everything below is the full write-up for engineers and reviewers.
+
 A full-stack, MERN-stack web application that gives a campus community a single
 place to **capture, share, and grow** ideas. Students can register, log in,
 submit an innovation idea, explore the submissions of others, vote on what they
